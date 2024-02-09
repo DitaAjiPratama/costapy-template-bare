@@ -6,7 +6,7 @@ An unstlyed CostaPy template with Bootstrap
 - Put the folder in your templates directory
 - Add to handler
 
-        import templates.bare.main  as bare
+        import templates.bare.main as bare
 
         kwargs["mako"] = {
           "website" : bare.main(directory.page["public"], "home") # page_directory, file_name
